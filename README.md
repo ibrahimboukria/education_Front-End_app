@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+![Status](https://img.shields.io/badge/status-in__development-yellow)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
