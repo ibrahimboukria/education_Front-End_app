@@ -1,9 +1,9 @@
 
 import React from 'react';
-
+import './home.css';
 const Home: React.FC = () => {
   return (
-    <section className="flex w-full h-screen flex-warp">
+    <section className="flex w-full h-screen flex-wrap">
       
       <div className="h-screen w-2/5 bg-black flex flex-col justify-center px-8">
         
@@ -35,7 +35,11 @@ const Home: React.FC = () => {
       </div>
       <div className='bg-[#4F46E5] h-screen w-3/5 flex flex-col items-center'>
       <h1 className='font-bold text-7xl m-10 text-white [-webkit-text-stroke:2px_#FFFFFF] '> WEBETU</h1>
-      <h1 className='font-bold text-2xl m-10 text-white '>Welcome to your lerning Hub</h1>
+      <h1 className='font-bold text-2xl m-10 text-white' id='kk5'>Welcome to your lerning Hub</h1>
+      <div className='overflow-hidden h-screen w-3/5'>
+         <img src='cc.png' className='w-full  h-full object-cover scale-125 -translate-x-20'/>
+      </div>
+     
 
 
 
